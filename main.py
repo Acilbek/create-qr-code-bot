@@ -8,7 +8,7 @@ async def start_message(message: types.Message):
     await message.reply('Salom menga url yoki text yuboring')
 @dp.message_handler(commands=['help'])
 async def start_message(message: types.Message):
-    await message.reply('Menga url manzili yoki text yuboring men uni qr code qiliby beraman')
+    await message.reply('Menga url manzili yoki text yuboring men uni qr code qilib beraman')
 
 @dp.message_handler()
 async def qrcode(message):
