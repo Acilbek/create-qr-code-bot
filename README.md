@@ -1,2 +1,2 @@
 # create-qr-code-bot
- t.me/scan_qr_bot
+ t.me/toqrbot
